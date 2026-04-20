@@ -2222,6 +2222,29 @@ araviaLaboratoriesProducts.push({
     img: "https://pcdn.goldapple.ru/p/p/19000363276/web/696d67416464335064708ddc5b72ea02ec7fullhd.webp"
 });
 
+const araviaOrganicProducts = [];
+araviaOrganicProducts.push({
+    id: "ARAVIA-ORGANIC-19000012151",
+    name: "Скраб для тела сухой антицеллюлитный Aravia Organic Citrus Coffee",
+    price: "5441 ₸",
+    desc: `ARAVIA ORGANIC Citrus Coffee
+артикул: 19000012151
+
+100% натуральный сухой кофейный скраб с апельсиновой цедрой.
+
+• Улучшает микроциркуляцию и стимулирует дренаж
+• Помогает бороться с целлюлитом
+• Осветляет и тонизирует кожу
+• Выводит токсины
+• Масло какао питает и восстанавливает кожу
+• Повышает упругость и эластичность
+
+Подходит для всех типов кожи.
+
+Объём: 300 г`,
+    img: "https://pcdn.goldapple.ru/p/p/19000012151/web/696d67416464335064708ddc48c9fded371fullhd.webp"
+});
+
 const allProducts = [
   ...(annyProducts || []),
   ...(anotherFaceProducts || []),
@@ -2233,6 +2256,7 @@ const allProducts = [
   ...(aquafreshProducts || []),
   ...(aquapilingProducts || []), // ✅ ДОБАВИЛИ
   ...(araviaLaboratoriesProducts || []),
+  ...(araviaOrganicProducts || []),
 ];
 
 function renderBrands(filter=''){
@@ -2279,6 +2303,7 @@ function showBrandProducts(brand){
     else if(b==="AQUAFRESH") renderProducts(aquafreshProducts);
     else if(b==="AQUAPILING") renderProducts(aquapilingProducts); // ✅ ВАЖНО
     else if(b==="ARAVIA LABORATORIES") renderProducts(araviaLaboratoriesProducts);
+    else if(b==="ARAVIA ORGANIC") renderProducts(araviaOrganicProducts);
     else renderProducts([]);
 }
 function openProduct(id){
