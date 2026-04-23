@@ -2807,18 +2807,44 @@ araviaOrganicProducts.push({
 Объём: 550 мл`,
     img: "https://pcdn.goldapple.ru/p/p/19760342402/web/696d67416464325064705f37646362386439333233393834343130623164656664353030373833313039328de4fb53aea5171fullhd.webp"
 });
+
+const araviaProfessionalProducts = [];
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19000028616",
+    name: "Рассасывающая маска для лица с поросуживающим эффектом ARAVIA Professional Post-Acne Balance Mask",
+    price: "3351 ₸",
+    desc: `ARAVIA PROFESSIONAL Post-Acne Balance Mask
+
+Рассасывающая маска для жирной и проблемной кожи.
+
+• Борется с акне, комедонами и постакне
+• Очищает поры и предотвращает их закупорку
+• Сужает поры и регулирует себум
+• Устраняет застойные пятна и отёки
+• Улучшает микроциркуляцию и цвет лица
+• Обладает кератолитическим действием
+
+Активные компоненты:
+— Сера (противовоспалительное действие)
+— Бадяга (улучшает микроциркуляцию и обновление кожи)
+
+Объём: 100 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000028616/web/696d67416464335064708ddc4a14078a44bfullhd.webp"
+});
+
 const allProducts = [
   ...(annyProducts || []),
   ...(anotherFaceProducts || []),
   ...(antinomieProducts || []),
   ...(anuaProducts || []),
   ...(anybuddyProducts || []),
-  ...(apadentProducts || []),
+  ...(apadentProducts || []),      
   ...(apagardProducts || []),
   ...(aquafreshProducts || []),
   ...(aquapilingProducts || []), // ✅ ДОБАВИЛИ
   ...(araviaLaboratoriesProducts || []),
   ...(araviaOrganicProducts || []),
+  ...(araviaProfessionalProducts  || []),
 ];
 
 function renderBrands(filter=''){
@@ -2866,6 +2892,7 @@ function showBrandProducts(brand){
     else if(b==="AQUAPILING") renderProducts(aquapilingProducts); // ✅ ВАЖНО
     else if(b==="ARAVIA LABORATORIES") renderProducts(araviaLaboratoriesProducts);
     else if(b==="ARAVIA ORGANIC") renderProducts(araviaOrganicProducts);
+    else if (b === "ARAVIA PROFESSIONAL") renderProducts(araviaProfessionalProducts);
     else renderProducts([]);
 }
 function openProduct(id){
