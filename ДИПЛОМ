@@ -2942,6 +2942,442 @@ araviaProfessionalProducts.push({
 Объём: 160 мл`,
     img: "https://pcdn.goldapple.ru/p/p/19760342368/web/696d67416464365064705f63386532666537653131343034323836383863373832346333343838333366668dea055402a3231fullhd.webp"
 });
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19000004184",
+    name: "Крем-лифтинг с нативным коллагеном ARAVIA Professional Collagen Expert Cream",
+    price: "6532 ₸",
+    desc: `ARAVIA PROFESSIONAL Collagen Expert Cream
+
+Питательный крем с выраженным лифтинг-эффектом.
+
+• Борется с морщинами и возрастными изменениями
+• Уменьшает гравитационный птоз
+• Повышает упругость и эластичность кожи
+• Питает и укрепляет кожу
+• Подходит для лица, шеи и декольте
+
+Активные компоненты:
+— Морской коллаген
+
+Объём: 50 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000004184/web/696d67416464335064708ddc47ef8c8e36cfullhd.webp"
+});
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19000015720",
+    name: "Тоник очищающий против черных точек и комедонов ARAVIA Professional Black Head Off",
+    price: "5294 ₸",
+    desc: `ARAVIA PROFESSIONAL Black Head Off
+
+Профессиональный очищающий тоник для жирной и проблемной кожи.
+
+• Удаляет остаточные загрязнения
+• Растворяет себум в порах
+• Предотвращает появление комедонов и акне
+• Смягчает и разрыхляет кожу
+• Подготавливает к чистке и уходовым процедурам
+• Не пересушивает и не стягивает кожу
+
+Активные компоненты:
+— Мочевина (эксфолиация)
+— Комплекс биофлавоноидов (детокс и контроль себума)
+— Аллантоин (обновление кожи)
+— Д-пантенол (успокаивает и восстанавливает)
+
+Объём: 250 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000015720/web/696d67416464335064708ddc491b10e7aabfullhd.webp"
+});
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19000004187",
+    name: "Увлажняющий крем для лица ARAVIA Professional Balance Moisture Cream",
+    price: "6724 ₸",
+    desc: `ARAVIA PROFESSIONAL Balance Moisture Cream
+
+Лёгкий увлажняющий крем для ежедневного ухода.
+
+• Интенсивно увлажняет кожу
+• Быстро впитывается без жирного блеска
+• Восстанавливает гидробаланс
+• Подходит для обезвоженной кожи
+• Подходит для всех типов кожи, включая жирную и комбинированную
+
+Активные компоненты:
+— Мочевина 10%
+— Пребиотики
+
+Объём: 150 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000004187/web/696d67416464365064705f30666139626466323463313234336330623563616335373533396132353438338dea07e598968c6fullhd.webp"
+});
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19000229806",
+    name: "Крем-флюид для рук ARAVIA Professional Cream Fluid",
+    price: "5165 ₸",
+    desc: `ARAVIA PROFESSIONAL Cream Fluid
+
+Лёгкий крем-флюид для интенсивного ухода за кожей рук.
+
+• Глубоко увлажняет и питает кожу
+• Быстро впитывается без липкости
+• Повышает упругость и эластичность
+• Выравнивает тон кожи
+• Подходит для процедуры парафинотерапии
+
+Активные компоненты:
+— Витамины Е и С
+— Масло ши
+
+Объём: 300 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000229806/web/696d67416464335064705f35613461663866656537656634636130393863323931373330333337343930638ddcb04d25ad276fullhd.webp"
+});
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19000410925",
+    name: "Липосомальный крем для лица ARAVIA Professional Retinol 0.7",
+    price: "11674 ₸",
+    desc: `ARAVIA PROFESSIONAL Retinol 0.7
+
+Омолаживающий крем с липосомальным ретинолом.
+
+• Уменьшает морщины и признаки старения
+• Укрепляет кожный матрикс
+• Стимулирует выработку коллагена
+• Борется с гиперпигментацией
+• Предотвращает фотостарение
+• Подходит для всех типов кожи, включая чувствительную
+
+Активные компоненты:
+— Липосомальный ретинол
+— Комплекс arageless®
+
+Объём: 50 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000410925/web/696d67416464325064705f33313633356437356233323834336331613938653463646531663961313534658de46b04bdee930fullhd.webp"
+});
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19000004189",
+    name: "Крем-бустер для сияния кожи ARAVIA Professional Glow-C Active Cream",
+    price: "7632 ₸",
+    desc: `ARAVIA PROFESSIONAL Glow-C Active Cream
+
+Крем с витамином C для сияния и выравнивания тона кожи.
+
+• Придаёт коже сияние
+• Выравнивает тон лица
+• Уменьшает тусклость кожи
+• Увлажняет и освежает
+• Подходит для всех типов кожи
+
+Активные компоненты:
+— Витамин C
+— Ниацинамид
+
+Объём: 50 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000004189/web/696d67416464335064708ddc47ef480c87ffullhd.webp"
+});
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19000012111",
+    name: "Крем для рук с маслом макадамии и карите ARAVIA Professional Cream Oil",
+    price: "3198 ₸",
+    desc: `ARAVIA PROFESSIONAL Cream Oil
+
+Крем-масло для интенсивного ухода за кожей рук.
+
+• Питает и глубоко увлажняет кожу
+• Успокаивает и смягчает
+• Укрепляет ногти и улучшает состояние кутикулы
+• Обладает антиоксидантным действием
+• Замедляет старение кожи
+
+Активные компоненты:
+— Масло макадамии
+— Масло ши (карите)
+— Масла виноградной косточки, жожоба, миндаля, какао
+
+Объём: 100 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000012111/web/7377617463688ddc48c8f5e6a3efullhd.webp"
+});
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19760342369",
+    name: "Крем-пенка для очищения лица ARAVIA Professional Vita-C Foaming",
+    price: "6381 ₸",
+    desc: `ARAVIA PROFESSIONAL Vita-C Foaming
+
+Мягкая очищающая пенка с витамином C для ежедневного ухода.
+
+• Очищает кожу и удаляет макияж
+• Осветляет и выравнивает тон лица
+• Укрепляет капилляры и стенки сосудов
+• Защищает от свободных радикалов
+• Подготавливает кожу к пилингам
+
+Активные компоненты:
+— Витамин C
+— Экстракты лимона, бадана, солодки и петрушки
+
+Объём: 160 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19760342369/web/696d67416464335064708ddc47446abceeafullhd.webp"
+});
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19000004221",
+    name: "Лосьон для подготовки кожи перед депиляцией ARAVIA Professional Lotion Pre-Epil",
+    price: "4076 ₸",
+    desc: `ARAVIA PROFESSIONAL Lotion Pre-Epil
+
+Лосьон для подготовки кожи перед депиляцией.
+
+• Очищает и обезжиривает кожу
+• Удаляет остатки кремов, масел и дезодорантов
+• Снижает риск раздражения после депиляции
+• Улучшает сцепление воска/пасты с волосом
+• Обладает успокаивающим эффектом
+
+Активные компоненты:
+— Экстракт мяты
+— Экстракт берёзы
+
+Объём: 300 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000004221/web/696d67416464335064708ddc47f1aeab542fullhd.webp"
+});
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19000012136",
+    name: "Масло для умывания гидрофильное ARAVIA Professional Pure Balance Cleansing Oil",
+    price: "8553 ₸",
+    desc: `ARAVIA PROFESSIONAL Pure Balance Cleansing Oil
+
+Гидрофильное масло для очищения жирной и комбинированной кожи.
+
+• Эффективно удаляет макияж (включая водостойкий)
+• Растворяет излишки кожного сала и загрязнения
+• Снижает риск появления акне
+• Способствует уменьшению комедонов
+• Не оставляет жирной плёнки и блеска
+• Некомедогенная формула
+
+Активные компоненты:
+— Масло чёрного тмина (антибактериальное действие)
+— Салициловая кислота (себорегуляция, очищение пор)
+— Экстракт календулы (успокаивающее действие)
+
+Объём: 110 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000012136/web/696d67416464335064708ddc48c98777cb1fullhd.webp"
+});
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19000092820",
+    name: "Успокаивающая сыворотка для лица ARAVIA Professional Redness Relief Serum",
+    price: "4249 ₸",
+    desc: `ARAVIA PROFESSIONAL Redness Relief Serum
+
+Успокаивающая сыворотка для чувствительной кожи с проявлениями купероза.
+
+• Уменьшает покраснения и раздражение
+• Укрепляет стенки сосудов
+• Улучшает микроциркуляцию
+• Снижает чувствительность кожи
+• Предотвращает развитие купероза
+• Повышает защитные функции кожи
+
+Активные компоненты:
+— Троксерутин (укрепление сосудов, снижение ломкости капилляров)
+— Ниацинамид (улучшение микроциркуляции, укрепление кожи)
+— Экстракты дуба, каштана, арники, центеллы и зелёного чая (тонизирование и восстановление)
+
+Объём: 50 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000092820/web/696d67416464335064708ddc5041b06ed93fullhd.webp"
+});
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19000028625",
+    name: "Крем для ног ультраувлажняющий ARAVIA Professional Ultra Moisture Cream",
+    price: "3667 ₸",
+    desc: `ARAVIA PROFESSIONAL Ultra Moisture Cream
+
+Крем для очень сухой кожи ног с глубоким увлажнением и восстановлением.
+
+• Интенсивно увлажняет и смягчает кожу
+• Устраняет сухость, шелушение и стянутость
+• Способствует заживлению трещин и натоптышей
+• Подходит для ежедневного и восстановительного ухода
+
+Активные компоненты:
+— Мочевина 15% (размягчение гиперкератоза, увлажнение)
+— PHA-кислоты (мягкое отшелушивание)
+
+Объём: 100 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000028625/web/696d67416464335064708ddc4a1522400a8fullhd.webp"
+});
+araviaProfessionalProducts.push({
+    id: "ARAVIA-PROF-19000323836",
+    name: "Крем против вросших волос ARAVIA Professional AHA Cream Post Epil",
+    price: "5429 ₸",
+    desc: `ARAVIA PROFESSIONAL AHA Cream Post Epil
+
+Крем против вросших волос после депиляции.
+
+• Предотвращает врастание волос
+• Мягко отшелушивает ороговевшие клетки кожи
+• Снимает гиперкератоз
+• Увлажняет и успокаивает кожу
+• Уменьшает раздражение и воспаления
+• Подходит для ежедневного ухода
+
+Активные компоненты:
+— Фруктовые кислоты (AHA)
+— Увлажняющие и успокаивающие компоненты
+
+Объём: 100 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000323836/web/696d67416464335064708ddc599a4ecdf71fullhd.webp"
+});
+
+const ardellProducts = [];
+
+ardellProducts.push({
+    id: "ARDELL-19000172938",
+    name: "Черный клей для подиумных ресниц Ardell Dark Lashgrip Strip Adhesive",
+    price: "3510 ₸",
+    desc: `ARDELL Dark Lashgrip Strip Adhesive
+
+Профессиональный клей для накладных ресниц.
+
+• Надёжная фиксация на весь день
+• Подходит для драматичного макияжа
+• Не вызывает дискомфорта и раздражения
+• Лёгкая и мягкая формула
+• Идеален для вечернего и подиумного образа
+
+Особенности:
+— Тёмный оттенок для эффекта подводки
+— Подходит для всех типов кожи
+
+Вес: 7 г`,
+    img: "https://pcdn.goldapple.ru/p/p/19000172938/web/696d67416464335064708ddc54214f7723afullhd.webp"
+});
+ardellProducts.push({
+    id: "ARDELL-19000172937",
+    name: "Прозрачный клей для подиумных ресниц Ardell Clear Lashgrip Strip Adhesive",
+    price: "3510 ₸",
+    desc: `ARDELL Clear Lashgrip Strip Adhesive
+
+Прозрачный клей для накладных ресниц.
+
+• Невидимая и надёжная фиксация ресниц
+• Подходит для ежедневного использования
+• Используется для полосок и кластерных ресниц
+• Обеспечивает стойкое удержание в течение дня и ночи
+• Не вызывает дискомфорта
+
+Особенности:
+— Прозрачный финиш
+— Кремовая текстура
+— Подходит для всех типов кожи
+
+Вес: 1.5 г`,
+    img: "https://pcdn.goldapple.ru/p/p/19000172937/web/696d67416464335064705f63343435363231343133323636343530613338303833323336323638393138636fullhd.webp"
+});
+ardellProducts.push({
+    id: "ARDELL-89000500018",
+    name: "Подиумные ресницы Ardell Naked 423 Lashes",
+    price: "2873 ₸",
+    desc: `ARDELL Naked 423 Lashes
+
+Накладные ресницы с естественным эффектом объёма.
+
+• Добавляют длину и объём натуральным ресницам
+• Центральная длина создаёт сбалансированный эффект
+• Подходят для любой формы глаз
+• Естественный и лёгкий внешний вид
+• Комфортны в носке
+
+Особенности:
+— Естественный объём
+— Универсальная форма
+
+Водостойкость: нет`,
+    img: "https://pcdn.goldapple.ru/p/p/89000500018/web/696d67416464335064708ddc4493f261121fullhd.webp"
+});
+ardellProducts.push({
+    id: "ARDELL-19000172943",
+    name: "Ресницы пучковые Ardell Duralash Knotted Flare Individual Lashes Medium Black",
+    price: "2990 ₸",
+    desc: `ARDELL Duralash Knotted Flare Individual Lashes Medium Black
+
+Индивидуальные пучковые ресницы для естественного наращивания.
+
+• Максимально естественный эффект
+• Лёгкие и комфортные в носке
+• Подходят для длительного использования (до 6 недель)
+• Водостойкие и изогнутые
+• Легко наносятся
+
+Особенности:
+— 56 пучков в упаковке
+— Средняя длина
+— Чёрный цвет
+
+Водостойкость: да`,
+    img: "https://pcdn.goldapple.ru/p/p/19000172943/web/696d674d61696e5064708ddc54217be7153fullhd.webp"
+});
+ardellProducts.push({
+    id: "ARDELL-19000172940",
+    name: "Подиумные ресницы Ardell Lashes Natural №111",
+    price: "2873 ₸",
+    desc: `ARDELL Lashes Natural №111
+
+Классические накладные ресницы для выразительного взгляда.
+
+• Подчёркивают естественную красоту глаз
+• Лёгкие и комфортные в носке
+• Подходят для ежедневного и вечернего макияжа
+• Можно прокрашивать тушью
+• Универсальная форма для любого типа глаз
+
+Особенности:
+— Естественный насыщенный цвет
+— Подходят для многоразового использования
+— Быстро и легко наносятся
+
+Водостойкость: да`,
+    img: "https://pcdn.goldapple.ru/p/p/19000172940/web/696d674d61696e5064708ddc5421762c602fullhd.webp"
+});
+ardellProducts.push({
+    id: "ARDELL-19000172941",
+    name: "Подиумные ресницы Ardell Demi Wispies Invisibands Lashes",
+    price: "2873 ₸",
+    desc: `ARDELL Demi Wispies Invisibands Lashes
+
+Легендарные накладные ресницы с эффектом объёма и лёгкости.
+
+• Создают выразительный, но естественный взгляд
+• Тонкая и незаметная лента (invisibands)
+• Средний объём и средняя длина
+• Перекрёстная структура для объёма и текстуры
+• Лёгкие и комфортные в носке
+
+Особенности:
+— Культовая модель Demi Wispies
+— Пушистый и воздушный эффект
+— Подходят для ежедневного и вечернего макияжа
+
+Водостойкость: да`,
+    img: "https://pcdn.goldapple.ru/p/p/19000172941/web/696d67416464325064705f34653764343938623238386634396661386634633630393038333431613738398de8b13658c69adfullhd.webp"
+});
+ardellProducts.push({
+    id: "ARDELL-19000172942",
+    name: "Ресницы пучковые Ardell Duralash Knotted Flare Individual Lashes Short Black",
+    price: "2990 ₸",
+    desc: `ARDELL Duralash Knotted Flare Individual Lashes Short Black
+
+Индивидуальные пучковые ресницы для естественного наращивания.
+
+• Естественный эффект удлинения и объёма
+• Короткая длина для максимально натурального результата
+• Лёгкие и комфортные в носке
+• Водостойкие и долговечные
+• Подходят для длительного ношения до 6 недель
+
+Особенности:
+— 56 пучков в упаковке
+— Чёрный цвет
+— Удобное нанесение
+
+Водостойкость: да`,
+    img: "https://pcdn.goldapple.ru/p/p/19000172942/web/696d674d61696e5064708ddc542178e12d2fullhd.webp"
+});
 const allProducts = [
   ...(annyProducts || []),
   ...(anotherFaceProducts || []),
@@ -2951,10 +3387,11 @@ const allProducts = [
   ...(apadentProducts || []),      
   ...(apagardProducts || []),
   ...(aquafreshProducts || []),
-  ...(aquapilingProducts || []), // ✅ ДОБАВИЛИ
+  ...(aquapilingProducts || []),
   ...(araviaLaboratoriesProducts || []),
   ...(araviaOrganicProducts || []),
-  ...(araviaProfessionalProducts  || []),
+  ...(araviaProfessionalProducts || []),
+  ...(ardellProducts || []), // 👈 ДОБАВИЛИ ARDELL
 ];
 
 function renderBrands(filter=''){
@@ -2999,10 +3436,11 @@ function showBrandProducts(brand){
     else if(b==="APADENT") renderProducts(apadentProducts);
     else if(b==="APAGARD") renderProducts(apagardProducts);
     else if(b==="AQUAFRESH") renderProducts(aquafreshProducts);
-    else if(b==="AQUAPILING") renderProducts(aquapilingProducts); // ✅ ВАЖНО
+    else if(b==="AQUAPILING") renderProducts(aquapilingProducts);
     else if(b==="ARAVIA LABORATORIES") renderProducts(araviaLaboratoriesProducts);
     else if(b==="ARAVIA ORGANIC") renderProducts(araviaOrganicProducts);
-    else if (b === "ARAVIA PROFESSIONAL") renderProducts(araviaProfessionalProducts);
+    else if(b==="ARAVIA PROFESSIONAL") renderProducts(araviaProfessionalProducts);
+    else if(b==="ARDELL") renderProducts(ardellProducts); // 👈 ДОБАВИЛИ ARDELL
     else renderProducts([]);
 }
 function openProduct(id){
