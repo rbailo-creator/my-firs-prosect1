@@ -3665,13 +3665,159 @@ arluniProducts.push({
 объём: 250 мл`,
     img: "https://pcdn.goldapple.ru/p/p/19000301728/web/696d67416464335064708ddc58eb65ec47ffullhd.webp"
 });
+arluniProducts.push({
+    id: "ARLUNI-19000301729",
+    name: "Освежитель воздуха Arluni Липа и зелень",
+    price: "2241 ₸",
+    desc: `ARLUNI ЛИПА И ЗЕЛЕНЬ
+
+Освежитель воздуха с ароматом липы и свежей зелени для дома и офиса.
+
+• Устраняет неприятные запахи (дым, животные, туалет)
+• Создаёт ощущение чистоты и свежести
+• Без спирта, парабенов и красителей
+• Подходит для ежедневного использования
+
+Аромат: липа + зелень (лёгкий природный свежий запах)
+
+Подробные характеристики
+тип продукта: освежитель воздуха
+объём: 250 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000301729/web/696d67416464335064708ddc58ebd338466fullhd.webp"
+});
+arluniProducts.push({
+    id: "ARLUNI-19000301735",
+    name: "Освежитель воздуха Arluni Гранат и нектарин",
+    price: "2241 ₸",
+    desc: `ARLUNI ГРАНАТ И НЕКТАРИН
+
+Освежитель воздуха с ароматом граната и нектарина.
+
+• Быстро освежает воздух
+• Устраняет неприятные запахи
+• Подходит для ванной, туалета и комнат
+• Удобный распылитель
+
+Подробные характеристики
+тип продукта: освежитель воздуха
+объём: 250 мл
+
+Аромат: гранат и нектарин — сладкий, свежий, бодрящий`,
+    img: "https://pcdn.goldapple.ru/p/p/19000301735/web/696d67416464335064708ddc58eb66f42b1fullhd.webp"
+});
+arluniProducts.push({
+    id: "ARLUNI-19000301733",
+    name: "Освежитель воздуха Arluni Персик, пион",
+    price: "2241 ₸",
+    desc: `ARLUNI ПЕРСИК, ПИОН
+
+Освежитель воздуха для дома и офиса с ароматом персика и пиона.
+
+• Быстро освежает воздух
+• Устраняет неприятные запахи
+• Удобный формат с триггером-распылителем
+• Подходит для любых помещений
+
+Подробные характеристики
+тип продукта: освежитель воздуха
+объём: 250 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000301733/web/696d67416464335064708ddc58eb69af88afullhd.webp"
+});
+arluniProducts.push({
+    id: "ARLUNI-19000301731",
+    name: "Освежитель воздуха Сакура и вишня",
+    price: "2241 ₸",
+    desc: `Arluni Сакура и вишня
+
+• Цветочно-фруктовый аромат
+• Создаёт уют
+• Аэрозоль с триггером
+
+250 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000301731/web/696d67416464335064708ddc58ebcf31cdbfullhd.webp"
+});
+arluniProducts.push({
+    id: "ARLUNI-19000301732",
+    name: "Освежитель воздуха Arluni Фиалка, бергамот",
+    price: "2241 ₸",
+    desc: `Arluni Фиалка, бергамот
+
+• Цветочно-цитрусовый аромат
+• Освежает воздух
+• Устраняет неприятные запахи
+• Подходит для дома и офиса
+• Удобный триггер-распылитель
+
+Объём: 250 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000301732/web/696d67416464335064708ddc6795750fullhd.webp"
+});
+arluniProducts.push({
+    id: "ARLUNI-19000301730",
+    name: "Освежитель воздуха Arluni Миндаль, яблоко",
+    price: "2241 ₸",
+    desc: `Arluni Миндаль, яблоко
+
+• Мягкий фруктово-ореховый аромат
+• Освежает и нейтрализует запахи
+• Подходит для дома и офиса
+• Удобный распылитель с триггером
+
+Объём: 250 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000301730/web/696d67416464335064708ddc58ebc603e02fullhd.webp"
+});
+arluniProducts.push({
+    id: "ARLUNI-19000301727",
+    name: "Освежитель воздуха Arluni Имбирь, лемонграсс",
+    price: "2241 ₸",
+    desc: `Arluni Имбирь, лемонграсс
+
+• Свежий цитрусово-пряный аромат
+• Быстро устраняет неприятные запахи
+• Подходит для дома и офиса
+• Удобный распылитель с триггером
+
+Объём: 250 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000301727/web/696d67416464335064708ddc58eb676c63efullhd.webp"
+});
+arluniProducts.push({
+    id: "ARLUNI-19000301726",
+    name: "Освежитель воздуха Arluni Жасмин, ваниль",
+    price: "2241 ₸",
+    desc: `Arluni Жасмин, ваниль
+
+• Нежный цветочно-сладкий аромат
+• Освежает воздух и устраняет запахи
+• Подходит для дома и офиса
+• Удобный триггер-распылитель
+
+Объём: 250 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000301726/web/696d67416464335064708ddc58ebc18cba9fullhd.webp"
+});
+
+const newProducts = [
+  {
+    id: "cellbycell1",
+    name: "Сыворотка для лица с пептидами",
+    price: "60034 тг",
+    img: "https://pcdn.goldapple.ru/p/p/19000491245/web/696d67416464325064705f31623264313332376630393234346463396262613237316531333731656131348de78637c6084cffullhd.webp",
+    desc: `CELLBYCELL PEPTIDE SIGNATURE AMPOULE
+
+Сыворотка для лица с 2 типами пептидов укрепляет барьер кожи, восстанавливая её гидролипидный баланс, и дарит глубокое увлажнение.
+
+PDRN (полинуклеотиды) — восстанавливает и увлажняет кожу.
+Фермент лактобактерий — поддерживает здоровое состояние кожи.
+
+Подходит для всех типов кожи, особенно жирной и проблемной.`
+  }
+];
+
 const allProducts = [
   ...(annyProducts || []),
   ...(anotherFaceProducts || []),
   ...(antinomieProducts || []),
   ...(anuaProducts || []),
   ...(anybuddyProducts || []),
-  ...(apadentProducts || []),      
+  ...(apadentProducts || []),
   ...(apagardProducts || []),
   ...(aquafreshProducts || []),
   ...(aquapilingProducts || []),
@@ -3680,8 +3826,9 @@ const allProducts = [
   ...(araviaProfessionalProducts || []),
   ...(ardellProducts || []),
   ...(arielProducts || []),
-  ...(arkoProducts || []), // 👈 ARKO ДОБАВЛЕН
-  ...(arluniProducts || []), // 👈 если уже добавил ARLUNI
+  ...(arkoProducts || []),
+  ...(arluniProducts || []),
+  ...(newProducts || []) // 👈 ДОБАВИЛИ НОВИНКИ
 ];
 function renderBrands(filter=''){
     const box = document.getElementById('brandList');
@@ -3733,6 +3880,7 @@ function showBrandProducts(brand){
     else if(b==="ARIEL") renderProducts(arielProducts);
     else if(b==="ARKO") renderProducts(arkoProducts);
     else if(b==="ARLUNI") renderProducts(arluniProducts);
+    else if(tab==='new') renderProducts(newProducts);
     else renderProducts([]);
 }
 function openProduct(id){
@@ -3780,13 +3928,17 @@ function renderCurrent(){
     }
 }
 
-function openTab(tab,el){
+function openTab(tab, el){
     currentTab = tab;
     currentBrand = '';
+
     document.querySelectorAll('.center-menu span').forEach(s=>s.classList.remove('active'));
     el.classList.add('active');
+
     document.getElementById('brandsSection').style.display = (tab==='brands')?'block':'none';
+
     if(tab==='brands') renderBrands();
+    else if(tab==='new') renderProducts(newProducts); // 👈 ВОТ ЭТО ГЛАВНОЕ
     else renderCurrent();
 }
 
