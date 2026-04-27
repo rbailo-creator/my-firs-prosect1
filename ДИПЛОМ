@@ -3550,6 +3550,121 @@ arkoProducts.push({
 Объём: 65 мл`,
     img: "https://pcdn.goldapple.ru/p/p/1480100003/web/696d674d61696e5064705f65363731663537623266393834386131613564626262313933376530333161628de85900b522b59fullhd.webp"
 });
+arkoProducts.push({
+    id: "ARKO-1483900009",
+    name: "Бальзам после бритья Arko Cool",
+    price: "2655 ₸",
+    desc: `ARKO Cool
+
+Охлаждающий бальзам после бритья.
+
+• Освежает и охлаждает кожу
+• Снимает раздражение после бритья
+• Увлажняет и успокаивает кожу
+• Дарит ощущение комфорта и свежести
+
+Подходит для всех типов кожи
+
+Объём: 150 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/1483900009/web/696d67416464335064708ddc524a7e7591ffullhd.webp"
+});
+arkoProducts.push({
+    id: "ARKO-19000096661",
+    name: "Пена для бритья Arko Hemp Seed Oil",
+    price: "2227 ₸",
+    desc: `ARKO HEMP SEED OIL
+
+Пена для комфортного бритья.
+
+• Смягчает кожу
+• Успокаивает во время бритья
+• Обеспечивает лёгкое скольжение
+
+Активный компонент:
+— Масло семян конопли
+
+Объём: 200 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000096661/web/696d67416464335064705f32613465333730313237363734636264626136656435663639313531666164378de8fee94689c61fullhd.webp"
+});
+arkoProducts.push({
+    id: "ARKO-19000387137",
+    name: "Бальзам после бритья Arko Sensitive",
+    price: "1673 ₸",
+    desc: `ARKO Sensitive
+
+Бальзам для чувствительной кожи.
+
+• Снимает раздражение
+• Успокаивает кожу
+• Увлажняет и защищает
+
+Активные компоненты:
+— Алоэ вера
+— Масло лаванды
+
+Объём: 150 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000387137/web/696d674d61696e5064708ddc5c7875a3ad5fullhd.webp"
+});
+arkoProducts.push({
+    id: "ARKO-19000125596",
+    name: "Крем после бритья Arko SENSITIVE",
+    price: "982 ₸",
+    desc: `ARKO SENSITIVE
+
+Крем после бритья для чувствительной кожи.
+
+• Снимает раздражение после бритья
+• Успокаивает и увлажняет кожу
+• Подходит для чувствительной кожи
+• Защищает от покраснений и жжения
+
+Активные компоненты:
+— Алоэ вера (успокаивает и защищает кожу)
+— Масло лаванды (смягчает и увлажняет)
+
+Объём: 50 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000125596/web/696d67416464335064708ddc524a7e4bf2cfullhd.webp"
+});
+arkoProducts.push({
+    id: "ARKO-19000125584",
+    name: "Гель для бритья и умывания Arko 2IN1 HEMP SEED OIL",
+    price: "4018 ₸",
+    desc: `ARKO 2IN1 HEMP SEED OIL
+
+Гель для бритья и умывания 2в1 с маслом семян конопли.
+
+• Используется для бритья и ежедневного умывания
+• Обеспечивает мягкое и комфортное бритьё
+• Очищает кожу от загрязнений
+• Успокаивает кожу и снижает раздражение
+• Подходит для всех типов кожи
+
+Активный компонент:
+— Масло семян конопли (успокаивающий эффект)
+
+Объём: 200 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000387134/web/696d67416464315064705f65663736343532316136313434633766626330323165633830306261636564328de5f5e088a152efullhd.webp"
+});
+
+const arluniProducts = [];
+arluniProducts.push({
+    id: "ARLUNI-19000301728",
+    name: "Освежитель воздуха Arluni Кашемир, дерево",
+    price: "2241 ₸",
+    desc: `ARLUNI КАШЕМИР, ДЕРЕВО
+
+Освежитель воздуха для дома и офиса.
+
+• Создаёт приятную и свежую атмосферу
+• Устраняет неприятные запахи
+• Удобный аэрозольный формат с триггером
+• Подходит для дома и рабочего пространства
+
+Подробные характеристики
+тип продукта: освежитель воздуха
+объём: 250 мл`,
+    img: "https://pcdn.goldapple.ru/p/p/19000301728/web/696d67416464335064708ddc58eb65ec47ffullhd.webp"
+});
 const allProducts = [
   ...(annyProducts || []),
   ...(anotherFaceProducts || []),
@@ -3565,7 +3680,8 @@ const allProducts = [
   ...(araviaProfessionalProducts || []),
   ...(ardellProducts || []),
   ...(arielProducts || []),
-  ...(arkoProducts || []), // 👈 ДОБАВИЛИ ARKO
+  ...(arkoProducts || []), // 👈 ARKO ДОБАВЛЕН
+  ...(arluniProducts || []), // 👈 если уже добавил ARLUNI
 ];
 function renderBrands(filter=''){
     const box = document.getElementById('brandList');
@@ -3615,7 +3731,8 @@ function showBrandProducts(brand){
     else if(b==="ARAVIA PROFESSIONAL") renderProducts(araviaProfessionalProducts);
     else if(b==="ARDELL") renderProducts(ardellProducts);
     else if(b==="ARIEL") renderProducts(arielProducts);
-    else if(b==="ARKO") renderProducts(arkoProducts); // 👈 ДОБАВИЛИ ARKO
+    else if(b==="ARKO") renderProducts(arkoProducts);
+    else if(b==="ARLUNI") renderProducts(arluniProducts);
     else renderProducts([]);
 }
 function openProduct(id){
