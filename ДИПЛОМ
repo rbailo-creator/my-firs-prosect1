@@ -4393,6 +4393,14 @@ newProducts.push({
 Объём: 12 мл`
 });
 
+const salesProducts = [];
+salesProducts.push({
+  id: "SOLDEJANEIRO-19000487801",
+  name: "Масло для тела Sol de Janeiro Beija Flor Elasti-Body",
+  price: "42900 ₸",
+  img: "https://pcdn.goldapple.ru/p/p/19000487801/web/696d67416464345064705f38333639653533383463313134376662386436366634356339323736373165648de6afe202058c9fullhd.webp",
+  desc: "Питает, увлажняет, делает кожу упругой. Аромат Cheirosa 68."
+});
 
 const allProducts = [
   ...(annyProducts || []),
@@ -4411,7 +4419,8 @@ const allProducts = [
   ...(arielProducts || []),
   ...(arkoProducts || []),
   ...(arluniProducts || []),
-  ...(newProducts || []) // 👈 ДОБАВИЛИ НОВИНКИ
+  ...(newProducts || []),
+  ...(salesProducts || []) // 👈 ВОТ ЭТО ДОБАВЬ
 ];
 function renderBrands(filter=''){
     const box = document.getElementById('brandList');
@@ -4464,6 +4473,8 @@ function showBrandProducts(brand){
     else if(b==="ARKO") renderProducts(arkoProducts);
     else if(b==="ARLUNI") renderProducts(arluniProducts);
     else if(tab==='new') renderProducts(newProducts);
+    else if(tab==='sales') renderProducts(salesProducts);
+
     else renderProducts([]);
 }
 function openProduct(id){
@@ -4524,7 +4535,36 @@ function openTab(tab, el){
     else if(tab==='new') renderProducts(newProducts); // 👈 ВОТ ЭТО ГЛАВНОЕ
     else renderCurrent();
 }
+function openTab(tab, el){
 
+    currentTab = tab;
+    currentBrand = '';
+
+    document.querySelectorAll('.center-menu span')
+        .forEach(s => s.classList.remove('active'));
+
+    if(el) el.classList.add('active');
+
+    document.getElementById('brandsSection').style.display =
+        (tab === 'brands') ? 'block' : 'none';
+
+    if(tab === 'brands') {
+        renderBrands();
+        renderProducts(allProducts);
+    }
+
+    else if(tab === 'new') {
+        renderProducts(newProducts);
+    }
+
+    else if(tab === 'sales') {   // ✅ ВОТ ЭТО ДОБАВЛЕНО
+        renderProducts(salesProducts);
+    }
+
+    else {
+        renderCurrent();
+    }
+}
 function openProfile(){document.getElementById('profileModal').style.display='block'}
 function closeProfile(){document.getElementById('profileModal').style.display='none'}
 function closeProduct(){document.getElementById('productModal').style.display='none'}
