@@ -4784,6 +4784,25 @@ salesProducts.push({
 Размер: 9 × 7 см`
 });
 
+const flaconProducts = [];
+flaconProducts.push({
+  id: "GARNIER-19000042607",
+  name: "Солнцезащитное молочко Ambre Solaire SPF 50+",
+  price: "4816 ₸",
+  img: "https://pcdn.goldapple.ru/p/p/19000042607/web/696d67416464335064705f36656264303932383064333934666465393162613733386336393739663737398ddcf551478d6e2fullhd.webp",
+  desc: `AMBRE SOLAIRE Витамин C
+
+Водостойкое солнцезащитное молочко SPF 50+ для лица и тела.
+
+• Защита UVA + UVB
+• Увлажняющая формула
+• Быстро впитывается
+• Не оставляет жирности
+• Подходит для лица и тела
+• Водостойкое
+
+Объём: 50 мл`
+});
 const allProducts = [
   ...(annyProducts || []),
   ...(anotherFaceProducts || []),
@@ -4802,7 +4821,8 @@ const allProducts = [
   ...(arkoProducts || []),
   ...(arluniProducts || []),
   ...(newProducts || []),
-  ...(salesProducts || []) // 👈 ВОТ ЭТО ДОБАВЬ
+  ...(salesProducts || []),
+  ...(flaconProducts || []) // 👈 ДОБАВИЛ ФЛАКОН
 ];
 function renderBrands(filter=''){
     const box = document.getElementById('brandList');
@@ -4854,9 +4874,7 @@ function showBrandProducts(brand){
     else if(b==="ARIEL") renderProducts(arielProducts);
     else if(b==="ARKO") renderProducts(arkoProducts);
     else if(b==="ARLUNI") renderProducts(arluniProducts);
-    else if(tab==='new') renderProducts(newProducts);
-    else if(tab==='sales') renderProducts(salesProducts);
-
+    else if(b==="FLACON") renderProducts(flaconProducts); // 👈 ДОБАВЛЕНО ПРАВИЛЬНО
     else renderProducts([]);
 }
 function openProduct(id){
@@ -5011,7 +5029,46 @@ function openTab(tab, el){
         renderCurrent();
     }
 }
+function openTab(tab, el){
+    currentTab = tab;
+    currentBrand = '';
 
+    document.querySelectorAll('.center-menu span')
+        .forEach(s => s.classList.remove('active'));
+
+    if(el) el.classList.add('active');
+
+    document.getElementById('brandsSection').style.display = 'none';
+    document.getElementById('shopsSection').style.display = 'none';
+    document.getElementById('products').style.display = 'grid';
+
+    if(tab === 'brands'){
+        document.getElementById('brandsSection').style.display = 'block';
+        renderBrands();
+        renderProducts(allProducts);
+    }
+
+    else if(tab === 'new'){
+        renderProducts(newProducts);
+    }
+
+    else if(tab === 'sales'){
+        renderProducts(salesProducts);
+    }
+
+    else if(tab === 'flacon'){   // 👈 ВОТ ЭТО ДОБАВЬ
+        renderProducts(flaconProducts);
+    }
+
+    else if(tab === 'shops'){
+        document.getElementById('shopsSection').style.display = 'block';
+        document.getElementById('products').style.display = 'none';
+    }
+
+    else{
+        renderCurrent();
+    }
+}
 function openProfile(){document.getElementById('profileModal').style.display='block'}
 function closeProfile(){document.getElementById('profileModal').style.display='none'}
 function closeProduct(){document.getElementById('productModal').style.display='none'}
