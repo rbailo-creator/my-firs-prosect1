@@ -59,8 +59,6 @@ button{width:100%;padding:10px;background:black;color:white;border:none;border-r
 <span onclick="openTab('flacon',this)">flacon</span>
 <span onclick="openTab('streams',this)">стримы</span>
 <span onclick="openTab('tamagotchi',this)">тамагочи</span>
-<span onclick="openTab('gifts',this)">подарочные карты</span>
-<span onclick="openTab('discount',this)" style="color:red">−50%</span>
 </div>
 
 <div class="bonus" id="bonusText">БОЛЬШЕ БОНУСОВ ДО 10 000</div>
@@ -134,6 +132,7 @@ button{width:100%;padding:10px;background:black;color:white;border:none;border-r
   </div>
 
 </div>
+
 
 
 <div id="brandsSection">
